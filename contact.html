@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<nav>
+    <a href="index.html">home</a>
+    <a href="about.html">about me</a>
+    <a href="contact.html">contact</a>
+</nav>
+<body>
+    <div class="contact-greet">
+        <p>Say Hi!</p>
+    </div>
+    <div id="contact-fill">
+        <form id="contact-form" action="https://formsubmit.co/5cd6b2ad233de02060986e0f192c4f55" method="POST">
+            <div id="contact-name">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div id="contact-email">
+                <label for="email">Email:</label>
+                <input type="email" id="email_id" name="email" required>
+            </div>
+            <div id="contact-msg">
+                <label for="message">Message:</label>
+                <textarea type="text" id="message" name="message" required></textarea>
+            </div>
+            <div id="send-button">
+                <button>Send</button>
+            </div>
+            <input type="hidden" name="_next" value="https://stanislaspyw.github.io/thankyou.html">
+        </form>
+        <div id="loren-ipsum">
+            <p>Loren Ipsum.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <div id="icons">
+            <a href="https://www.instagram.com/iamstanislas/">
+                <ion-icon id="instagram" name="logo-instagram"></ion-icon>
+            </a>
+            <a href="https://www.linkedin.com/in/poon-stanislas-513bb4101/" target="blank">
+                <ion-icon id="linkedin" name="logo-linkedin"></ion-icon>
+            </a>
+        </div> 
+        <div id="copyright">
+            <p>copyright &copy;2022 stanislas. designed by me</p>
+        </div>
+    </div>
+</body>
+</html>
